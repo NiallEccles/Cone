@@ -1,0 +1,22 @@
+.masonry{
+    .masonry-container{
+        display: grid;
+            // grid-template-columns: 50% 1fr;
+            // grid-template-rows: 50% 1fr;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 260px 260px;
+            grid-template-areas: "first third" "second third";
+        .masonry-item{
+            background-size: cover;
+            background-position: center;
+            img{
+                width: 100%;
+            }
+            &.first { grid-area: first; }
+
+            &.second { grid-area: second; }
+
+            &.third { grid-area: third; }
+        }
+    }
+}
