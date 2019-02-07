@@ -1,0 +1,22 @@
+.profile{
+    width: 50%;
+    margin: auto;
+    .profile-picture{
+        text-align: center;
+        img{
+            width: 10em;
+            border-radius: 50%;
+            border: 7px solid #ee85b5;
+        }
+    }
+    .user-information{
+        text-align: center;
+        h2{
+            margin-bottom: 0;
+        }
+        p{
+            margin-top: 0;
+            color: #b3b3b3;
+        }
+    }
+}

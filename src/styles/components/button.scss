@@ -1,0 +1,21 @@
+.button{
+    background: #ee85b5;
+    border: none;
+    padding: 5px 10px;
+    color: black;
+    font-family: $body-font-family;
+    font-size: 1em;
+    &.login{
+
+    }
+    &.signout{
+        background: white;
+        border: 2px solid #ee85b5;
+        color: black;
+        &:hover{
+            background: #ee85b5;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
